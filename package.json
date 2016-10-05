@@ -5,6 +5,9 @@
     "start": "meteor run"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0"
+    "express": "^4.14.0",
+    "http-proxy-middleware": "^0.17.2",
+    "meteor-node-stubs": "~0.2.0",
+    "node-sspi": "^0.1.13"
   }
 }
