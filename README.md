@@ -52,7 +52,7 @@ existing one. On the **client side**, the login is being initiated early in the 
 phase.
 
 As the account created is in fact a native Meteor user account, it could be immediately
-used in publications, methods and etc. This demo app, for instance, uses the native
+used in publications, methods, etc. This demo app, for instance, uses the native
 `Meteor.user()` method to display the logged in username.
 
 
@@ -86,7 +86,7 @@ separate Windows machine, to make it possible to keep the Meteor app running on 
 easy to use a package such as `node-activedirectory`
 (https://github.com/gheeres/node-activedirectory) to load additional user properties
 from Active Directory, i.e. group membership, in order to grant roles and permissions
-within the application and etc.
+within the application, etc.
 
 
 ## IE Compatibility
