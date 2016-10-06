@@ -132,7 +132,7 @@ in such case just download as `.zip`  file
 1. Place the cloned/extracted sources in `/packages/meteor-inject-initial` folder
 inside your Meteor project
 1. Open `lib/inject-server.js` and scroll to the bottom of the file
-**notice:** The line with `injectObjects` is the one injecting the `<script>` tag above
+**notice:** the line with `injectObjects` is the one injecting the `<script>` tag above
 the `<meta>` one
 1. Move the last line, the one with `injectObjects` above the one with `injectHeads` -
 each line injects at the top, so moving it to be the first actually pushes the tags
