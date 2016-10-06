@@ -74,6 +74,9 @@ meteor npm install
 meteor
 ```
 
+**Notice:** make sure to point the browser to the NTLM Authentication Proxy port,
+which is **3030** in this example.
+
 
 ## Extending the current solution
 
