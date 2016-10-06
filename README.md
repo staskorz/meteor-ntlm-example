@@ -123,7 +123,8 @@ pushing the `<meta>` tag required to force IE out of Compatibility View mode to 
 second place, thus making it lose its effect, driving IE back to the Compatibility View
 mode.
 
-The only solution for this issue I've found so far was to perform the following:
+The only solution for this issue I've found so far was to manually modify the
+`meteorhacks:inject-initial` package:
 
 1. Download the sources of the `meteorhacks:inject-initial` package from
 https://github.com/meteorhacks/meteor-inject-initial - **notice:** `git clone` may
@@ -138,6 +139,7 @@ each line injects at the top, so moving it to be the first actually pushes the t
 it creates to the bottom, which is exactly what's required to regain IE compatibility
 1. After the Meteor app is restarted, the locally modified package will be used
 instead of the one from Atmosphere, thus resolving the IE compatibility issue
+
 
 ## License
 
