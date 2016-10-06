@@ -1,6 +1,25 @@
 {
   "name": "meteor-ntlm-example",
-  "private": true,
+  "author": "Stas (Stanislav) Korzovsky <staskorz@gmail.com>",
+  "description": "Example Meteor app with Active Directory transparent password-less NTLM authentication",
+  "keywords": [
+    "active directory",
+    "ntlm",
+    "sspi",
+    "authentication",
+    "transparent",
+    "passwordless",
+    "meteor"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/staskorz/meteor-ntlm-example",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staskorz/meteor-ntlm-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/staskorz/meteor-ntlm-example/issues"
+  },
   "scripts": {
     "start": "meteor run"
   },
