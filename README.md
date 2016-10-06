@@ -37,7 +37,7 @@ The solution consists of two parts:
 
 The **NTLM Authentication Proxy** is basically just a simple `Express` app.
 It authenticates the user using the `NodeSSPI` package
-(https://github.com/abbr/NodeSSPI), then it uses the `http-proxy-middleware` package
+(https://github.com/abbr/NodeSSPI), then uses the `http-proxy-middleware` package
 (https://github.com/chimurai/http-proxy-middleware) to set the HTTP header `x-ntlm-user`
 to the authenticated user's username (in a form of "DOMAIN\username")
 and proxy the requests to the Meteor app. Even though in this demo project it runs
