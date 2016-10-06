@@ -23,7 +23,7 @@ using NTLM to transparently authenticate Active Directory users.
 
 ## Previous art
 
-The Meteor custom login handler was heavily inspired from a MeteorHacks article
+The Meteor custom login handler was heavily inspired by a MeteorHacks article
 "Extending Meteor Accounts (login system)" by @arunoda
 (https://meteorhacks.com/extending-meteor-accounts). 
 
